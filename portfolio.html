@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Any & Every Photo</title>
+    <meta name="description" content="Explore photography from Any & Every Photo, including automotive, portraits, engagements, events and more." />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="portfolio-page">
+    <header class="site-header portfolio-header">
+      <a href="index.html" class="brand">
+        <img src="images/logo.PNG" alt="Any & Every Photo logo" />
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="index.html#contact" class="nav-button">Book a Session</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portfolio-hero">
+        <div class="portfolio-hero-inner">
+          <p class="section-label">PORTFOLIO</p>
+
+          <h1>
+            Any subject.<br />
+            <span>Any story.</span>
+          </h1>
+
+          <p class="portfolio-hero-copy">
+            No single category defines the work. From quiet moments to
+            full-throttle action, every session deserves its own story.
+          </p>
+        </div>
+      </section>
+
+      <section class="portfolio-gallery-section">
+        <div class="portfolio-toolbar">
+          <div class="portfolio-filters" aria-label="Portfolio filters">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="automotive">Automotive</button>
+            <button class="filter-button" data-filter="portraits">Portraits</button>
+            <button class="filter-button" data-filter="engagements">Engagements</button>
+            <button class="filter-button" data-filter="events">Events</button>
+          </div>
+
+          <p class="portfolio-count">
+            <span id="portfolio-count">12</span> photos
+          </p>
+        </div>
+
+        <div class="portfolio-masonry">
+          <button class="gallery-item gallery-tall" data-category="engagements" data-image="images/web/07.webp" aria-label="Open engagement photo">
+            <img src="images/web/07.webp" alt="Engagement photography" loading="lazy" />
+            <span class="gallery-category">Engagements</span>
+          </button>
+
+          <button class="gallery-item" data-category="automotive" data-image="images/web/09.webp" aria-label="Open automotive photo">
+            <img src="images/web/09.webp" alt="Automotive photography" loading="lazy" />
+            <span class="gallery-category">Automotive</span>
+          </button>
+
+          <button class="gallery-item gallery-tall" data-category="portraits" data-image="images/web/02.webp" aria-label="Open portrait photo">
+            <img src="images/web/02.webp" alt="Portrait photography" loading="lazy" />
+            <span class="gallery-category">Portraits</span>
+          </button>
+
+          <button class="gallery-item gallery-wide" data-category="automotive" data-image="images/web/03.webp" aria-label="Open motorsports photo">
+            <img src="images/web/03.webp" alt="Motorsports photography" loading="lazy" />
+            <span class="gallery-category">Motorsports</span>
+          </button>
+
+          <button class="gallery-item" data-category="other" data-image="images/web/04.webp" aria-label="Open lifestyle photo">
+            <img src="images/web/04.webp" alt="Lifestyle photography" loading="lazy" />
+            <span class="gallery-category">Lifestyle</span>
+          </button>
+
+          <button class="gallery-item" data-category="automotive" data-image="images/web/10.webp" aria-label="Open automotive photo">
+            <img src="images/web/10.webp" alt="Automotive photography" loading="lazy" />
+            <span class="gallery-category">Automotive</span>
+          </button>
+
+          <button class="gallery-item gallery-tall" data-category="portraits" data-image="images/web/05.webp" aria-label="Open photography">
+            <img src="images/web/05.webp" alt="Photography by Any & Every Photo" loading="lazy" />
+            <span class="gallery-category">Portraits</span>
+          </button>
+
+          <button class="gallery-item gallery-wide" data-category="events" data-image="images/web/06.webp" aria-label="Open event photo">
+            <img src="images/web/06.webp" alt="Event photography" loading="lazy" />
+            <span class="gallery-category">Events</span>
+          </button>
+
+          <button class="gallery-item" data-category="automotive" data-image="images/web/11.webp" aria-label="Open automotive photo">
+            <img src="images/web/11.webp" alt="Automotive photography" loading="lazy" />
+            <span class="gallery-category">Automotive</span>
+          </button>
+
+          <button class="gallery-item gallery-tall" data-category="automotive" data-image="images/web/01.webp" aria-label="Open motorcycle photo">
+            <img src="images/web/01.webp" alt="Motorcycle photography" loading="lazy" />
+            <span class="gallery-category">Automotive</span>
+          </button>
+
+          <button class="gallery-item gallery-wide" data-category="automotive" data-image="images/web/12.webp" aria-label="Open automotive photo">
+            <img src="images/web/12.webp" alt="Automotive photography" loading="lazy" />
+            <span class="gallery-category">Automotive</span>
+          </button>
+
+          <button class="gallery-item" data-category="automotive" data-image="images/web/08.webp" aria-label="Open photography">
+            <img src="images/web/08.webp" alt="Photography by Any & Every Photo" loading="lazy" />
+            <span class="gallery-category">Automotive</span>
+          </button>
+        </div>
+        <p class="portfolio-swipe-hint">
+  Swipe to explore <span>→</span>
+</p>
+      </section>
+
+      <section class="portfolio-cta">
+        <p class="section-label">YOUR TURN</p>
+
+        <h2>
+          Have something<br />
+          worth <span>capturing?</span>
+        </h2>
+
+        <p>
+          Tell me what you have in mind and we'll figure out the best way to
+          bring it to life.
+        </p>
+
+        <a href="index.html#contact" class="button button-primary">
+          Book Your Session
+        </a>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+      <button class="lightbox-arrow lightbox-prev" id="lightbox-prev" aria-label="Previous image">←</button>
+
+      <img id="lightbox-image" src="" alt="Expanded portfolio image" />
+
+      <button class="lightbox-arrow lightbox-next" id="lightbox-next" aria-label="Next image">→</button>
+      <div class="lightbox-counter" id="lightbox-counter"></div>
+    </div>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="images/logo.PNG" alt="Any & Every Photo logo" />
+      </div>
+
+      <p>Photography + Videography</p>
+      <p>© <span id="year"></span> Any & Every Photo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>
