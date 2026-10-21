@@ -1287,3 +1287,7 @@ footer p:last-child {
     }
 
 }
+
+.contact-info .contact-item strong {
+  overflow-wrap: anywhere;
+}
